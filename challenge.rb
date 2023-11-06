@@ -37,11 +37,11 @@ puts developers
 # p character_name
 # puts 'Good Luck'
 
-puts "You're starting on a boat on the way to skull island where you want to find some buried loot. After five long years of searching, you hit the shore and start your quest. Where do you want to start?"
-puts 'option 1: explore the cave'
-puts 'option 2: explore the jungle'
 
 def first_scenario  
+    puts "You're starting on a boat on the way to skull island where you want to find some buried loot. After five long years of searching, you hit the shore and start your quest. Where do you want to start?"
+    puts 'option 1: explore the cave'
+    puts 'option 2: explore the jungle'
     option = gets.chomp
     option = option.to_i
     if option == 1 
@@ -53,6 +53,25 @@ def first_scenario
     end
 end
 p first_scenario
-# puts 'Good Luck'
 
 
+puts "part two good luck"
+puts 'option 1: explore the mountain'
+puts 'option 2: explore the ocean'
+
+
+def second_scenario 
+    option = gets.chomp
+    option = option.to_i
+    if option == 1 
+        return 'go to the mountain with a flashlight and find loot'
+    elsif option == 2 
+        return 'go to the ocean with a machete and find rabid dogs'
+    else 
+        return 'Please enter 1 or 2'
+    end
+end
+p second_scenario
+
+
+__̴ı̴̴̡̡̡ ̡͌l̡̡̡ ̡͌l̡*̡̡ ̴̡ı̴̴̡ ̡̡͡|̲̲̲͡͡͡ ̲▫̲͡ ̲̲̲͡͡π̲̲͡͡ ̲̲͡▫̲̲͡͡ ̲|̡̡̡ ̡ ̴̡ı̴̡̡ ̡͌l̡̡̡̡.___
